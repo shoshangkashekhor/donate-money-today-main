@@ -126,37 +126,49 @@ body {
     margin: 5px 200px;
 }
 
-.donate-plan {
-    padding-top: 0 0;
+.container h2 {
+    padding-left: 580px;
 }
 
-.donate-plan h2 {
-    padding: 100px 240px;
+.container p {
     text-align: center;
-    font-size: 30px;
 }
 
-.donate-plan p {
-    text-align: center;
-    padding-bottom: px;
-    font-size: 15px;
-    margin-bottom: 700px;
-}
-
-.flexible-container {
+.donate-box {
     display: flex;
-    padding-bottom: 600px;
-    margin-top: 300px;
+    justify-content: space-evenly;
+    margin-top: 50px;
 }
 
-.first-child {
-    width: 40%;
-    padding: 30px;
-    border: 2px;
-    box-shadow: 10px 10px 40px grey;
-    border-radius: 20px;
-    margin-left: 40px;
-    color: black;
+.first-box {
+    width: 320px;
+    background-color: #FF5959;
+    padding: 30px 25px;
+    text-align: justify;
+    border-radius: 10px;
+    box-shadow: 10px 10px 20px;
+}
+
+.first-box img {
+    width: 50px;
+}
+
+.first-box h2 {
+    padding: 20px 0 10px;
+}
+
+#color-one {
+    background-color: bisque;
+
+}
+
+#color-two {
+    background-color: darksalmon;
+
+}
+
+#color-three {
+    background-color: khaki;
 }
 
 .footer {
